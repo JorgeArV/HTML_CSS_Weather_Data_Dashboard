@@ -25,3 +25,31 @@ body {background-color: #d1d1e0;}
     bottom: -10%;
     right: -50%;
 }
+
+/*VISUALIZATION PAGES*/
+
+#right-up2{
+    position: absolute;
+    bottom: 28%;
+    right: 0%;
+}
+
+#left-up2{
+    position: absolute;
+    bottom: 27%;
+    right: 0%;
+}
+
+#left-down2{
+    position: absolute;
+    bottom: -20%;
+    right: -50%;
+    z-index: 1;
+}
+
+#right-down2{
+    position: absolute;
+    bottom: -20%;
+    right: -50%;
+    z-index: 1;
+}
