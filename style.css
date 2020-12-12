@@ -2,6 +2,11 @@
 /*1st row: Latitude / Plots / Comparison / Data*/
 body {background-color: #d1d1e0;}
 
+#latitude{
+font-style: italic;
+
+}
+
 #left-up{
     position: absolute;
     bottom: 50%;
