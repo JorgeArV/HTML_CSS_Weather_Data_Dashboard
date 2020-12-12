@@ -2,34 +2,26 @@
 /*1st row: Latitude / Plots / Comparison / Data*/
 body {background-color: #d1d1e0;}
 
-#latitude{
-font-style: italic;
-
+#right-up1{
+    position: absolute;
+    bottom: 1%;
+    right: 0%;
 }
 
-#left-up{
+#left-up1{
     position: absolute;
-    bottom: 50%;
-    right: 23%;
-    padding: 15px;
-    background-color: white;
-
+    bottom: 1%;
+    right: 0%;
 }
 
-#right-up{
+#left-down1{
     position: absolute;
-    bottom: 50%;
-    right: 10%;
+    bottom: -7%;
+    right: -50%;
 }
 
-#down-left{
+#right-down1{
     position: absolute;
-    bottom: 25%;
-    right: 23%;
-}
-
-#down-right{
-    position: absolute;
-    bottom: 25%;
-    right: 10%;
+    bottom: -10%;
+    right: -50%;
 }

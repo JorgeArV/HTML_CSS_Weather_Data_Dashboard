@@ -12,7 +12,7 @@
 <body> 
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Latitude</a>
+        <a class="navbar-brand" href="#">Latitude </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,7 +23,7 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
+                Plots
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">Max. Temperature</a>
@@ -55,22 +55,37 @@
     </div>-->
     
     <p>
-    <div class="row" style="background-color:#ffffff;">
-        <div class="col-md-5"><h2>Summary: Latitude vs. X </h2></div>
+    <div class="row">
+        <div class="col-md-5 p-3 mb-2 bg-info text-white" ><h2>Summary: Latitude vs. X </h2></div>
         <div class="col-md-1" style="background-color:#d0d0e1;"></div>
-        <div class="col-md-6">Visualizations</div>
+        <div class="col-md-6 p-3 mb-2 bg-info text-white"><h2>Visualizations</h2></div>
       </div>
     </p>
     
-    <p>
-      <div class="row" style="background-color:#ffffff;">
-        <div class="col-md-2"><img src = 'Resources/assets/images/Fig1.png' style="width:275px;height:275px;"> </div>
-        <div class="col-md-4 mr-auto">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</div>
-        <div class="col-md-2"><img src = 'Resources/assets/images/Fig1.png' style="width:275px;height:275px;"> </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-2"><img src = 'Resources/assets/images/Fig1.png' style="width:275px;height:275px;"> </div>
-    </div>
-    </p>
+      <div class="row">
+        <div class="col-md-5" style="background-color:#ffffff;"><img src = 'Resources/assets/images/Fig1.png' style="width:275px;height:275px;"> </div>
+        <div class="col-md-1"> </div>
+        <div class="col-md-3" style="background-color:#ffffff;"><img src = 'Resources/assets/images/Fig1.png' style="width:275px;height:270px;" id =left-up1> </div>
+        <div class="col-md-1" style="background-color:#ffffff;"></div>
+        <div class="col-md-2" style="background-color:#ffffff;"><img src = 'Resources/assets/images/Fig2.png' style="width:275px;height:270px;" id =right-up1> </div>
+      </div>
+
+        <div class="row">
+          <div class="col-md-5" style="background-color:#ffffff;">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</div>
+          <div class="col-md-1"> </div>
+          <div class="col-md-2" style="background-color:#ffffff;"><img src = 'Resources/assets/images/Fig3.png' style="width:275px;height:270px;" id =left-down1> </div>
+          <div class="col-md-1" ></div>
+          <div class="col-md-2" style="background-color:#ffffff;"><img src = 'Resources/assets/images/Fig4.png' style="width:275px;height:270px;" id =right-down1> </div>
+        </div>
+
+      <div class="row">
+        <div class="col-md-5 text-white" style="background-color:#ffffff;">empty row</div>
+        <div class="col-md-1 text-white"></div>
+        <div class="col-md-2" style="background-color:#ffffff;"></div>
+        <div class="col-md-1" style="background-color:#ffffff;"></div>
+        <div class="col-md-2" style="background-color:#ffffff;"></div>
+       </div>
+      
 
     
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
