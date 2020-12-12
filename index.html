@@ -6,21 +6,35 @@
   <title>Web_Design_Challenge</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!--<link rel='stylesheet' type='text/css' href='style.css'>-->
+  <link rel='stylesheet' type='text/css' href="style.css">
 </head>
 
-<body>
-  <div class="container">
+<body> 
+  <div class="container" style="background-color:#ff0000;">
  <!--LANDING PAGE-->
  <!--1st row: Latitude / Plots / Comparison / Data-->
-    <div class="row">
-      <div class="col-md-1" class="p-3 mb-2 bg-info text-white">Latitude</div>
-      <div class="col-md-8"></div>
-      <div class="col-md-1">Plots</div>
-      <div class="col-md-1">Comparison</div>
-      <div class="col-md-1">Data</div>
+    <div class="row" style="background-color:#ffffff;">
+    <div class="p-3 mb-2 bg-info text-white">Latitude</div>
+    <div class="col-md-8"></div>
+    <div class="col-md-1">Plots</div>
+    <div class="col-md-1">Comparison</div>
+    <div class="col-md-1">Data</div>
     </div>
-
+    
+    <p>
+    <div class="row" style="background-color:#d0d0e1;">
+        <div class="col-8"><h2>Summary: Latitude vs. X </h2></div>
+        <div class="col-4">Visualizations</div>
+      </div>
+    </p>
+    
+    <p>
+      <div class="row" style="background-color:#d0d0e1;">
+        <div class="col-2"><img src = 'Resources/assets/images/Fig1.png' style="width:275px;height:275px;"> </div>
+        <div class="col-1"> </div>
+        <div class="col-4">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</div>
+      </div>
+    </p>
 
     
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
