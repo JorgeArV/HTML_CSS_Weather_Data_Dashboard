@@ -43,27 +43,33 @@
       </nav>
 
   <div class="container">
-    <p>
-        <div class="row" id="latitude_small_title">
-            <div class="col-md-2" style="background-color:#d0d0e1;"></div>
-            <div class="col-md-8 p-3 mb-2 bg-info text-white" ><h2>Summary: Latitude vs. X </h2></div>
-            <div class="col-md-2" style="background-color:#d0d0e1;"></div>
-          </div>
-        </p>
+ <!--LANDING PAGE-->
+ <!--1st row: Latitude / Plots / Comparison / Data-->
+   <!-- <div class="row" style="background-color:#ffffff;">-->
+    <!--<div class="p-3 md-1 bg-info text-white">Latitude</div>-->
+     <!-- <div class="col-md-1" id="latitude">Latitude</div>
+    <div class="col-md-8"></div>
+    <div class="col-md-1">Plots</div>
+    <div class="col-md-1">Comparison</div>
+    <div class="col-md-1">Data</div>
+    </div>-->
 
-    <!--<p>
+    <!--TITLES-->
+    <p>
     <div class="row">
         <div class="col-md-5 p-3 mb-2 bg-info text-white" ><h2>Summary: Latitude vs. X </h2></div>
         <div class="col-md-1" style="background-color:#d0d0e1;"></div>
-        <div class="col-md-6 p-3 mb-2 bg-info text-white"><h2>Visualizations</h2></div>
+        <div class="col-md-6 p-3 mb-2 bg-info text-white" id = index_visualization><h2>Visualizations</h2></div>
       </div>
     </p>
+
     
+    <!--CONTENT / LEFT SIDE-->
       <div class="row">
         <div class="col-md-1" style="background-color:#ffffff;"> </div>
         <div class="col-md-4" style="background-color:#ffffff;"><img src = 'Resources/assets/images/Fig1.png' style="width:275px;height:275px;"></div>
         <div class="col-md-1"> </div>
-        <div class="col-md-3" style="background-color:#ffffff;"><a href="Max_temp.html"><img src = 'Resources/assets/images/Fig1.png' style="width:275px;height:270px;" id =left-up1></a></div>
+        <div class="col-md-3" style="background-color:#ffffff;"id = index_left_up><a href="Max_temp.html"><img src = 'Resources/assets/images/Fig1.png' style="width:275px;height:270px;" id =left-up1></a></div>
         <div class="col-md-1" style="background-color:#ffffff;"></div>
         <div class="col-md-2" style="background-color:#ffffff;"><a href="Humidity.html"><img src = 'Resources/assets/images/Fig2.png' style="width:275px;height:270px;" id =right-up1></a></div>
       </div>
@@ -82,7 +88,7 @@
         <div class="col-md-2" style="background-color:#ffffff;"></div>
         <div class="col-md-1" style="background-color:#ffffff;"></div>
         <div class="col-md-2" style="background-color:#ffffff;"></div>
-       </div>-->
+       </div>
       
 
     
@@ -91,3 +97,17 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
+
+@media (max-width: 600px) {
+    #index_visualization {
+        position: absolute;
+        bottom: 1%;
+        right: 0%;
+    }
+    #index_left_up {
+        position: absolute;
+        bottom: 1%;
+        right: 0%;
+    }
+
+  }
