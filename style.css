@@ -1,6 +1,7 @@
+/*Core background for all webpages*/
 body {background-color: #d1d1e0;}
-/*LANDING PAGE*/
-/*Title*/
+
+/*Position of graphs on landing page*/
 
 #right-up1{
     position: absolute;
@@ -26,7 +27,7 @@ body {background-color: #d1d1e0;}
     right: -50%;
 }
 
-/*VISUALIZATION PAGES*/
+/*Position of graphs on visualization pages*/
 
 #right-up2{
     position: absolute;
